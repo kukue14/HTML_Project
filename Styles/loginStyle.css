@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    /* border: 1px solid #000000; */
+    width: 500px;
+    margin: 100px auto;
+}
+
+.login img {
+    width: 100px;
+    display: block;
+    margin: 30px auto;
+}
+
+.login section {
+    border: 1px solid #000000;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.login div {
+    width: 300px;
+    margin: 30px auto;
+}
+
+#label {
+    font-size: 20px;
+}
+
+.login input {
+    height: 30px;
+    width: 92%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.login button {
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    margin: auto;
+}
