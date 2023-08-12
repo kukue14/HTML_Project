@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+@import url(./menuDetail.css);
 
 * {
     margin: 0;
@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 30px;
 }
 
 .navigation_bar img {
@@ -46,10 +47,13 @@ body {
     text-decoration: none;
     color: #000000;
     padding: 20px;
+    transition: 0.5s;
 }
 
 .navigation_bar a:hover {
     color: blueviolet;
+    font-size: 20px;
+    transition: 1s;
 }
 
 .whitespace {
@@ -96,4 +100,10 @@ body {
     text-align: center;
     padding: 15px;
 }
+
+.workspace a {
+    text-decoration: none;
+}
+
+
 
