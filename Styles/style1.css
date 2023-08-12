@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -8,12 +12,23 @@ body {
 }
 
 .navigation_bar {
-    border: 1px solid #000000;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: #ffffff;
+}
+
+.navigation_bar section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_bar img {
+    width: 50px;
+    float: right;
 }
 
 .navigation_bar h1 {
@@ -42,18 +57,33 @@ body {
 }
 
 .workspace {
-    width: 50%;
-}
-.workspace .detail {
-    font-size: 50px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.workspace .paragraph {
+.workspace .detail {
+    width: 45%;
+}
+
+.workspace .image {
+    width: 600px;
+    float: inline-end;
+    margin: auto;
+}
+
+.workspace h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.workspace p {
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: lighter;
+    text-align: justify;
 }
 
 .workspace h2 {
@@ -66,3 +96,4 @@ body {
     text-align: center;
     padding: 15px;
 }
+
