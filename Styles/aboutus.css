@@ -1,0 +1,23 @@
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    /* background-color: #8BE8E5; */
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus img {
+    width: 600px;
+}

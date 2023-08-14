@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url(./navigation.css);
 @import url(./menuDetail.css);
-
+@import url(./aboutus.css);
 * {
     margin: 0;
     padding: 0;
@@ -9,51 +10,6 @@
 
 body {
     height: 5000px;
-}
-
-.navigation_bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    background-color: #ffffff;
-}
-
-.navigation_bar section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 30px;
-}
-
-.navigation_bar img {
-    width: 50px;
-    float: right;
-}
-
-.navigation_bar h1 {
-    font-size: 25px;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.navigation_bar nav {
-    padding: 20px;
-    margin-left: 30px;
-}
-
-.navigation_bar a {
-    text-decoration: none;
-    color: #000000;
-    padding: 20px;
-    transition: 0.5s;
-}
-
-.navigation_bar a:hover {
-    color: blueviolet;
-    font-size: 20px;
-    transition: 1s;
 }
 
 .whitespace {
