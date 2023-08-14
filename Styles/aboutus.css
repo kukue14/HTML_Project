@@ -17,7 +17,18 @@ header{
 .aboutus {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.aboutus h2 {
+    font-size: 30px;
+}
+
+.aboutus p {
+    font-size: 20px;
+    text-align: justify;
+}
+
 .aboutus img {
     width: 600px;
 }
