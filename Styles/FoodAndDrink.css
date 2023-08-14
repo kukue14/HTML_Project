@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@400;900&display=swap');
+
+body {
+    background-color: rgb(224, 205, 180);
+}
+
+.heading {
+    width: 350px;
+    line-height: 5px;
+    margin: 80px auto;
+    display: block;
+}
+
+.heading #heading {
+    color: orange;
+    font-size: 80px;
+
+}
+
+.heading i {
+    color: orange;
+    text-align: right;
+}
+
+.heading span {
+    font-size: 50px;
+}
+
+.canteen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.canteen h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Serif Myanmar', serif;
+}
+
+.canteen a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.canteen h2 {
+    width: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: orange;
+    display: block;
+    margin: auto;
+}
+
+.canteen section {
+    line-height: 20px;
+}
+
+.canteen abbr {
+    text-decoration: none;
+}

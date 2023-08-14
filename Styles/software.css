@@ -1,0 +1,64 @@
+
+
+.main_section {
+    height: 400px;
+    width: 700px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray, -3px 0px 8px gray;
+    display: block;
+    margin: 50px auto;
+    overflow: auto;
+}
+
+.main_section .title {
+    padding-left: 30px;
+    padding-top: 10px;
+    position: fixed;
+    background-color: #ffffff;
+    width: 84%;
+    border-radius: 10px;
+}
+
+.software img {
+    width: 50px;
+    display: inline-block;
+}
+
+.software {
+    padding-top: 15px;
+}
+
+.software section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+
+.software section span {
+    display: flex;
+    align-items: center;
+}
+
+.software section .detail {
+    float: right;
+    display: block;
+    margin-left: 20px;
+}
+
+.software section .detail p {
+    font-size: 10px;
+}
+
+.software section .download_key {
+    padding: 3px 30px;
+    border-radius: 20px;
+    background-color: rgb(210, 206, 206);
+    color: rgb(78, 78, 244);
+}
+
+.software hr {
+    width: 560px;
+    margin-left: 100px;
+}
