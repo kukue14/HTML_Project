@@ -3,12 +3,29 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   body {
-    background: linear-gradient(rgba(0, 255, 255, 0.404),rgba(43, 0, 255, 0.489));
-    background-size: cover;
-    font-family: sans-serif;
-    display: block;
+  background: linear-gradient(-35deg, #f4b7a4, #e8e0e3, #23a6d5, #23d5ab);
+  background-size: 350% 350%;
+  font-family: sans-serif;
+  display: inline-block;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ 
   #loginStatus{
     
     margin-top: 12rem ;
