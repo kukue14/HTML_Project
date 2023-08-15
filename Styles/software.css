@@ -49,7 +49,7 @@
 .software {
     padding-top: 15px;
     height: 400px;
-    width: 700px;
+    width: 500px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px gray, -3px 0px 8px gray;
     display: block;
@@ -82,7 +82,7 @@
 .software section .download_key {
     padding: 3px 30px;
     border-radius: 20px;
-    background-color: rgb(210, 206, 206);
+    background-color: #d2cece;
     color: rgb(78, 78, 244);
 }
 
