@@ -1,20 +1,41 @@
 
 
-.main_section {
-    height: 400px;
-    width: 700px;
-    margin: 50px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px gray, -3px 0px 8px gray;
+.software_main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.software_main h1 {
     display: block;
-    margin: 50px auto;
-    overflow: auto;
+}
+
+.software_title {
+    text-align: center;
+    background-color: coral;
+    width: 800px;
+    display: block;
+    margin: 30px auto;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.software_title h1 {
+    font-size: 80px;
+    display: inline-block;
+}
+.software_title h2 {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.main_section {
+    display: inline-block;
+    width: 700px;
 }
 
 .main_section .title {
     padding-left: 30px;
     padding-top: 10px;
-    position: fixed;
     background-color: #ffffff;
     width: 84%;
     border-radius: 10px;
@@ -27,6 +48,13 @@
 
 .software {
     padding-top: 15px;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray, -3px 0px 8px gray;
+    display: block;
+    overflow: auto;
+    margin: 20px auto;
 }
 
 .software section {

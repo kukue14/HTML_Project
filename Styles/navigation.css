@@ -38,7 +38,12 @@
 
 .navigation_bar ul li ul.dropdown li {
     display: block;
-    background-color: #ffffff;
+    background-color: #ffffff89;
+}
+
+.navigation_bar ul li ul.dropdown a {
+    text-align: left;
+    padding: 15px;
 }
 
 .navigation_bar ul li ul.dropdown {

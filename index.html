@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informational Assistance</title>
     <link rel="stylesheet" href="./Styles/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./JavaScript/content.js"></script>
 </head>
 <body>
@@ -15,24 +16,27 @@
         </section>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#aboutus">About us</a></li>
-                <li><a href="#">Content ▼</a>
+                <li><a href="#home">Home<i class="fa-solid fa-house icon"></i></a></li>
+                <li><a href="#aboutus">About us<i class="fa-solid fa-circle-info icon"></i></a></li>
+                <li><a href="#" style="width: 150px;">Content<i class="fa-solid fa-angle-down icon"></i></a>
                 <ul class="dropdown">
-                    <li><a href="#">Softwares</a></li>
-                    <li><a href="./LectureSlide.html">Lecture Slides</a></li>
-                    <li><a href="./LectureVideo.html">Lecture Videos</a></li>
-                    <li><a href="./timetable.html">Time Table</a></li>
+                    <li><a href="#software">Softwares<i class="fa-solid fa-grip icon"></i></a></li>
+                    <li><a href="./LectureSlide.html">Lecture Slides<i class="fa-solid fa-book icon"></i></a></li>
+                    <li><a href="./LectureVideo.html">Lecture Videos<i class="fa-solid fa-video icon"></i></a></li>
+                    <li style="border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;"><a href="./timetable.html">Time Table<i class="fa-solid fa-calendar-days icon"></i></a></li>
                 </ul> </li>
-                <li><a href="./food&drink.html">Food & Drink</a></li>
-                <li><a href="./news.html">News</a></li>
+                <li><a href="./food&drink.html">Food & Drink<i class="fa-solid fa-utensils icon"></i></a></li>
+                <li><a href="./news.html">News<i class="fa-solid fa-newspaper icon"></i></a></li>
             </ul>
         </nav>
     </div>
+    <section class="intro_image"></section>
 
     <!-- Home Page -->
     <section id="home">
         <section class="whitespace"></section>
+        <!-- <img src=""> -->
         <div class="workspace">
             <section class="detail">
                 <h1>We're ready<br>to help you.</h1>
@@ -44,132 +48,247 @@
             </section>
         </div>
     </section>
-    <br><br><br><br><br>
-    <br><br><br>
+    <br><br><br><br>
+    <hr>
+    <br><br><br><br>
     <!-- About Page -->
     <section id="aboutus">
-        <section class="whitespace"></section>
+        <section class="whitespace" style="height: 200px;"></section>
         <div class="aboutus">
             <section>
                 <img src="./images/About us page-pana.svg" alt="About Us image">
             </section>
             <section>
                 <div class="container">
-                    <h2>Welcome to Our Story</h2>
+                    <h2>Welcome to Our Story<i class="fa-solid fa-hand-peace icon"></i></h2>
                     <p>We are a passionate team dedicated to delivering high-quality services that enhance your life. With a collective experience, we are committed to pushing the boundaries of innovation and excellence.</p>
                     <p>Our mission is to create the accessible informations of the Semester(3) UCSY, we strive to make a positive impact of the students.</p>
                     <br><br>
-                    <h2>Meet Our Team</h2>
+                    <h2>Meet Our Team<i class="fa-solid fa-people-group icon"></i></h2>
                     <p>We are a diverse team of students,each bringing a unique skill set and perspective to the table. Our collaborative environment fosters creativity and innovation, ensuring we deliver the best solutions to you.</p>
                     <br><br>
-                    <h2>Contact Us</h2>
-                    <p>If you're interested in learning more or have any questions, please feel free to reach out to us at <i><a href="mailto:yem3092003@gmail.com">yem3092003@gmail.com</a></i></p>
+                    <h2>Contact Us<i class="fa-solid fa-envelope icon"></i></h2>
+                    <p>If you're interested in learning more or have any questions, please feel free to reach out to us at <i><a href="mailto:yem3092003@gmail.com">infoassistance.ucsy@gmail.com</a></i></p>
                 </div>
             </section>
         </div>
     </section>
-
-    <section class="main_section">
-        <div class="title">
-            <p>ESSENTIALS</p>
-            <h1>Top Apps Right Now</h1>
+    <br><br><br><br>
+    <br><br><br><br>
+    <hr>
+    <section id="software">
+        <section style="height: 80px;"></section>
+        <div class="software_title">
+            <h1>We're</h1>
+            <h2>supporting to be easy.</h2>
         </div>
-        <section style="height: 50px;"></section>
-        <div class="software">
-            <section>
-                <span>
-                <img src="./images/eclipse.png" alt="eclipse icon">
-                    <span class="detail">
-                        <h1>Eclipse IDE</h1>
-                        <p>Java SE/EE Editor</p>
-                    </span>
-                </span>
-                <h1 class="download_key">Get</h1>
+        <div class="software_main">
+            <section class="main_section">
+                <div class="title">
+                    <p>ESSENTIALS</p>
+                    <h1>Code Editors</h1>
+                </div>
+                
+                <div class="software">
+                    <section>
+                        <span>
+                        <img src="./images/eclipse.png" alt="eclipse icon">
+                            <span class="detail">
+                                <h1>Eclipse IDE</h1>
+                                <p>Java SE/EE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.eclipse.org/downloads/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/intellij idea icon.png" alt="intellij idea icon">
+                            <span class="detail">
+                                <h1>Intellij Idea Community IDE</h1>
+                                <p>Java SE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.jetbrains.com/idea/download/?section=windows"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/pycharm.png" alt="pycharm community icon">
+                            <span class="detail">
+                                <h1>Pycharm IDE</h1>
+                                <p>Python Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.jetbrains.com/pycharm/download/?section=windows"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/visual studio code.png" alt="visual studio code icon">
+                            <span class="detail">
+                                <h1>Visual Studio Code</h1>
+                                <p>All in one Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://code.visualstudio.com/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/Visual_Studio_Icon_2022.svg.png" alt="visual studio code icon">
+                            <span class="detail">
+                                <h1>Visual Studio</h1>
+                                <p>All in one Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://visualstudio.microsoft.com/downloads/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/sublimeText.png" alt="pycharm community icon">
+                            <span class="detail">
+                                <h1>Sublime Text</h1>
+                                <p>Python Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.sublimetext.com/3"><h1 class="download_key">Get</h1></a>
+                    </section>   
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/Atom_1.0_icon.png" alt="eclipse icon">
+                            <span class="detail">
+                                <h1>Atom</h1>
+                                <p>Java SE/EE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://github.com/atom/atom/releases/tag/v1.60.0"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/notePad.png" alt="intellij idea icon">
+                            <span class="detail">
+                                <h1>Intellij Idea Community IDE</h1>
+                                <p>Java SE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://notepad-plus-plus.org/downloads/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    
+                        <hr>
+                    
+                    
+                </div>
             </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/intellij idea icon.png" alt="intellij idea icon">
-                    <span class="detail">
-                        <h1>Intellij Idea Community IDE</h1>
-                        <p>Java SE Editor</p>
-                    </span>
-                </span>
-                <a href="https://www.jetbrains.com/idea/download/?section=windows"><h1 class="download_key">Get</h1></a>
+            <section class="main_section">
+                <div class="title">
+                    <p>NECESSARIES</p>
+                    <h1>Meida Tools</h1>
+                </div>
+                
+                <div class="software">
+                    <section>
+                        <span>
+                        <img src="./images/eclipse.png" alt="eclipse icon">
+                            <span class="detail">
+                                <h1>Eclipse IDE</h1>
+                                <p>Java SE/EE Editor</p>
+                            </span>
+                        </span>
+                        <h1 class="download_key">Get</h1>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/intellij idea icon.png" alt="intellij idea icon">
+                            <span class="detail">
+                                <h1>Intellij Idea Community IDE</h1>
+                                <p>Java SE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.jetbrains.com/idea/download/?section=windows"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/pycharm.png" alt="pycharm community icon">
+                            <span class="detail">
+                                <h1>Pycharm IDE</h1>
+                                <p>Python Editor</p>
+                            </span>
+                        </span>
+                        <h1 class="download_key">Get</h1>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/visual studio code.png" alt="visual studio code icon">
+                            <span class="detail">
+                                <h1>Visual Studio Code</h1>
+                                <p>All in one Editor</p>
+                            </span>
+                        </span>
+                        <h1 class="download_key">Get</h1>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/Visual_Studio_Icon_2022.svg.png" alt="visual studio code icon">
+                            <span class="detail">
+                                <h1>Visual Studio</h1>
+                                <p>All in one Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://visualstudio.microsoft.com/downloads/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/sublimeText.png" alt="pycharm community icon">
+                            <span class="detail">
+                                <h1>Sublime Text</h1>
+                                <p>Python Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://www.sublimetext.com/3"><h1 class="download_key">Get</h1></a>
+                    </section>   
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/Atom_1.0_icon.png" alt="eclipse icon">
+                            <span class="detail">
+                                <h1>Atom</h1>
+                                <p>Java SE/EE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://github.com/atom/atom/releases/tag/v1.60.0"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    <section>
+                        <span>
+                        <img src="./images/notePad.png" alt="intellij idea icon">
+                            <span class="detail">
+                                <h1>Intellij Idea Community IDE</h1>
+                                <p>Java SE Editor</p>
+                            </span>
+                        </span>
+                        <a href="https://notepad-plus-plus.org/downloads/"><h1 class="download_key">Get</h1></a>
+                    </section>
+                        <hr>
+                    
+                        <hr>
+                    
+                    
+                </div>
             </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/pycharm.png" alt="pycharm community icon">
-                    <span class="detail">
-                        <h1>Pycharm IDE</h1>
-                        <p>Python Editor</p>
-                    </span>
-                </span>
-                <h1 class="download_key">Get</h1>
-            </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/visual studio code.png" alt="visual studio code icon">
-                    <span class="detail">
-                        <h1>Visual Studio Code</h1>
-                        <p>All in one Editor</p>
-                    </span>
-                </span>
-                <h1 class="download_key">Get</h1>
-            </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/Visual_Studio_Icon_2022.svg.png" alt="visual studio code icon">
-                    <span class="detail">
-                        <h1>Visual Studio</h1>
-                        <p>All in one Editor</p>
-                    </span>
-                </span>
-                <a href="https://visualstudio.microsoft.com/downloads/"><h1 class="download_key">Get</h1></a>
-            </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/sublimeText.png" alt="pycharm community icon">
-                    <span class="detail">
-                        <h1>Sublime Text</h1>
-                        <p>Python Editor</p>
-                    </span>
-                </span>
-                <a href="https://www.sublimetext.com/3"><h1 class="download_key">Get</h1></a>
-            </section>   
-                <hr>
-            <section>
-                <span>
-                <img src="./images/Atom_1.0_icon.png" alt="eclipse icon">
-                    <span class="detail">
-                        <h1>Atom</h1>
-                        <p>Java SE/EE Editor</p>
-                    </span>
-                </span>
-                <a href="https://github.com/atom/atom/releases/tag/v1.60.0"><h1 class="download_key">Get</h1></a>
-            </section>
-                <hr>
-            <section>
-                <span>
-                <img src="./images/notePad.png" alt="intellij idea icon">
-                    <span class="detail">
-                        <h1>Intellij Idea Community IDE</h1>
-                        <p>Java SE Editor</p>
-                    </span>
-                </span>
-                <a href="https://notepad-plus-plus.org/downloads/"><h1 class="download_key">Get</h1></a>
-            </section>
-                <hr>
-            
-                <hr>
-            
-            
         </div>
     </section>
+    
+  
     
     
 </body>
