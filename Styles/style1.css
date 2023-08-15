@@ -3,6 +3,8 @@
 @import url(./menuDetail.css);
 @import url(./aboutus.css);
 @import url(./software.css);
+@import url(./activities.css);
+
 * {
     margin: 0px;
     padding: 0px;
