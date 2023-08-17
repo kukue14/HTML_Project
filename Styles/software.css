@@ -11,12 +11,12 @@
 
 .software_title {
     text-align: center;
-    background-color: coral;
-    width: 800px;
+    background-color: rgb(237, 151, 120);
+    width: 100%;
     display: block;
     margin: 30px auto;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
+    /* border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px; */
 }
 
 .software_title h1 {
