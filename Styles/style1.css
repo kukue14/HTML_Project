@@ -11,12 +11,31 @@
     padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
-    transition: 0.5s;
+    /* transition: 0.1s; */
 }
 
 body {
     margin: 0px;
     height: 5000px;
+}
+.dark-mode{
+    background-color: rgb(57, 53, 53);
+    color: white;
+    
+}
+.dark-mode .navigation_bar{
+    background-color: rgb(57, 53, 53);
+    color: white;
+}
+
+#dark-light{
+    margin-top: -20px;
+    float: right;
+}
+
+
+.dark-mode .navigation_bar ul li a{
+    color: rgb(206, 198, 198);
 }
 
 body hr {
@@ -32,6 +51,8 @@ body hr {
 .icon {
     margin-left: 10px;
 }
+
+
 
 .workspace img {
     margin-top: 100px;    

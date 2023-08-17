@@ -150,9 +150,9 @@
     opacity: 1;
   }
   #close {
-    position: absolute;
-    right: -45rem;
-    bottom: 32rem;
+    position: relative;
+    right: -53rem;
+    bottom: 17rem;
     font-size: 2rem;
     font-weight: 900;
     text-decoration: none;
