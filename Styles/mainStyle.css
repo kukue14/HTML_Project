@@ -5,18 +5,20 @@
 @import url(./software.css);
 @import url(./activities.css);
 @import url(./threeContents.css);
+@import url(./dark_mode.css);
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
-    transition: 0.5s;
+    /* transition: 0.2s; */
 }
 
 body {
     margin: 0px;
     height: 5000px;
+    transition: 0.5s;
 }
 
 body hr {
@@ -84,5 +86,27 @@ body hr {
     text-decoration: none;
 }
 
+.copy_right h1{
+    font-size: 10px;
+    margin-left: 20px;
+}
 
+.copy_right_image {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.copy_right_image img {
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.copy_right_image a {
+    text-decoration: none;
+    color: #000000;
+}
 

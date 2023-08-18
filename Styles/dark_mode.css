@@ -1,0 +1,24 @@
+.dark-mode{
+    background-color: rgb(57, 53, 53);
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.dark-mode .navigation_bar{
+    background-color: rgb(57, 53, 53);
+    color: white;
+    transition: 0.50s;
+}
+
+#dark-light{
+    float: right;
+}
+
+.dark-mode .navigation_bar ul li a{
+    color: rgb(206, 198, 198);
+}
+
+.dark-mode .navigation_bar ul li ul.dropdown li {
+    background-color: rgba(103, 94, 94, 0.797)
+}

@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="./Styles/mainStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./JavaScript/content.js"></script>
+    <script src="./JavaScript/darkmode.js"></script>
 </head>
 <body>
     <div class="navigation_bar">
-        <section>
-            <img src="./images/InfoAssistance.png" alt="UCSY_Logo">
-            <h1>Informational<br>Assistance</h1>
-        </section>
-        <nav>
+        <a href="#aboutus">
+            <section>
+                <img src="./images/InfoAssistance.png" alt="UCSY_Logo">
+                <h1>Informational<br>Assistance</h1>
+            </section>
+        </a>
+        <nav >
             <ul>
                 <li><a href="#home">Home<i class="fa-solid fa-house icon"></i></a></li>
                 <li><a href="#aboutus">About us<i class="fa-solid fa-circle-info icon"></i></a></li>
@@ -27,9 +30,13 @@
                     border-bottom-right-radius: 10px;"><a href="./timetable.html">Time Table<i class="fa-solid fa-calendar-days icon"></i></a></li>
                 </ul> </li>
                 <li><a href="./FoodAndDrink.html">Food & Drink<i class="fa-solid fa-utensils icon"></i></a></li>
-                <li><a href="./activities.html">Activity<i class="fa-solid fa-newspaper icon"></i></a></li>
+                <li><a href="./activities.html">Activity<i class="fa-solid fa-newspaper icon"></i></a></li> 
+                <!-- </div> -->
             </ul>
         </nav>
+        <!-- <li><button onclick="myFunction()">mode</button></li> -->
+                <!-- <div id="drak-light"  onclick="myFunction()"  > -->
+                    <img id="dark-light" onclick="changeImage()" src="./images/turnOff.png" class="darkmode_btn">
     </div>
 
     <!-- Home Page -->
@@ -323,6 +330,26 @@
     </section>
     
   
+    <hr style="width: 100%;">
+    <div class="copy_right">
+        <h1>Copy right @ <i>Informational Assistance Group</i> since 13<sup>th</sup> August, 2023</h1>
+        <section class="copy_right_image">
+            <a href="https://ucsy.edu.mm">
+                <div>
+                    <img src="./images/ucsylogo.png" alt="" id="cp_ucsyLogo">
+                    <br>
+                    <label for="cp_ucsyLogo">University of Computer Studies, Yangon</label>
+                </div>
+            </a>
+            <a href="#aboutus">
+                <div>
+                    <img src="./images/InfoAssistance.png" alt="" id="cp_iaLogo">
+                    <br>
+                    <label for="cp_iaLogo">Informational Assistance Group</label>
+                </div>
+            </a>
+        </section>
+    </div>
     
     
 </body>
