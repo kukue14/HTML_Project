@@ -4,71 +4,274 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lecture Slides</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./Styles/lectureSlides.css">
-    <p>
-        <span style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: large;">
-            Informational Assistance >> lecture Slides
-        </span>
-    </p>
-
+    <title>Subjects with LectureVideos</title>
 </head>
 <body>
-    <div class="button-container" style="display: flex;">
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                English
-            </span>
-        </a>
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                Calculus
-            </span>
-        </a>
-
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                CS-(801)
-            </span>
-        </a>
-
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                IS-(201)
-            </span>
-        </a>
-
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                CS-(202)
-            </span>
-        </a>
-
-        <a href="">
-            <span>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAUVBMVEU0mNv///8pgLkwkM8jfrhLkcITebakwdsyk9QcfLeArdE8iL0vjcsrhL4AdbSMtNTs8/j0+Ptsosvh6/R1ps2xy+BamcbW5fCpxt7K3esAb7Hb+B0bAAABjUlEQVRoge3by5KDIBCF4RaRiICXJF4y7/+gIxozm1mMNGUv5nz71F+gZgNNhSBCHHHEEb8iPi9d82fdMmeML6o19gTThjFTvK+MOkubqc8Rfzh7ur2yjl2nYqiS2mu94se783v+ZppbiuX1iffJ7XXtJkn7Ne19GhnxZLpthhh/Jj5xpu1jIadF4src17hMOtZvgnGtB7m4MqNg3DaCcVUx4yHBz6958UBJai8YX3nNjvvkOHl2vEyPxzornr7rUWDFdc2KEyeuGU98Xzojzm1TmRwPnJdtVyfGM6SjYw/L+oQs5SOeZx1Jcd7nyovLtUmyTSrb25NAcuHE/p/ikNx1AAAAAAAAAAAAAAAAAAD4heBBbi15hO0lD+8DiV1ToVKRU1Jx5ehuhTY+2DvdjAoCb3wdlFnoYXLcLjsr3oA0Dyqe2wX34H15Ee+3q6/mWVDRy1wy166P0xyzFbhfb/Vrn2OZ3eWjBcbNxXuCZ+jiAI++SBwA2kYajtmlYWym6iJTMw7HHIsgxP9f/Bu5LjH7CZnBtgAAAABJRU5ErkJggg==" alt="Foler-icon" height="60px" class="img-container">
-                <br>
-                ITSM-(201)
-            </span>
-        </a>
-
+    <div class="slide_container">
+        <div style="display: inline-block;">
+            <nav class="sidebar">
+                <div class="sidebar-inner">
+                    <header class="sidebar-header">
+                        <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                            <i class='bx bx-menu'></i>
+                        </button>
+                        <img src="" alt="" class="sidebar-logo">
+                    </header>
+        
+                    <nav class="sidebar-menu">
+                        <button type="button">
+                            <i class='bx bx-home' ></i>
+                            <span>Home</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-video'></i>
+                            <span>LectureVideos</span>
+                        </button>
+                        <button type="button" class="has-border">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(English)</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(CM-102)</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(CS-202)</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(CS-801)</span>
+                        </button>
+                        <button type="button" class="has-border">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(IS-201)</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-graduation' ></i>
+                            <span>(ITSM-201)</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bxs-cog' ></i>
+                            <span>Setting</span>
+                        </button>
+                        <button type="button">
+                            <i class='bx bx-lock' ></i>
+                            <span>Security</span>
+                        </button>
+                    </nav>
+                </div>
+            </nav>
+        </div>
         
 
-       
-      
-            
-       
+        <div class="sidebar_detail">
+            <section id="#english">
+                <h1>English</h1>
+                <div class="main_div">
+                    <div class="sub_div">
+                        <h1>English Text Book</h1>
+                        <hr>
+                        <span style="display: flex; justify-content: space-between; align-items: center;">
+                            <p>Traveller B2</p>
+                            <a href="#"><button>Download</button></a>
+                            
+                        </span>
+                        <span style="display: flex; justify-content: space-between; align-items: center;">
+                            <p>IELTS</p>
+                            <a href="#"><button>Download</button></a>
+                        </span>
+                    </div>
+                    </div>
+                </section>
+
+                <hr style="width: 100%;">
+
+                <section id="#calculus">
+                    <h1>Calculus</h1>
+                    <div class="main_div">
+                        <div class="sub_div">
+                            <h1>Calculus Text Book</h1>
+                            <hr>
+                            <span style="display: flex; justify-content: space-between; align-items: center;">
+                                <p>Traveller B2</p>
+                                <a href="#"><button>Download</button></a>
+                                
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="width: 100%;">
+                
+                <section id="#calculus">
+                    <h1>Principle of Computer Science II (CS-202) </h1>
+                    <div class="main_div">
+                        <div class="sub_div">
+                            <h1>Java Text Book</h1>
+                            <hr>
+                            <span style="display: flex; justify-content: space-between; align-items: center;">
+                                <p style="width: 300px;">An introduction to Object-Oriented Programming with Java (5<sup>th</sup> ed.) </p>
+                                <a href="#"><button>Download</button></a>   
+                            </span>
+                        </div>
+                        <h2>Lecture Slides</h2>
+                        <div>
+                            <div class="main_sub_div">
+                                <div class="sub_div">
+                                    <h1>Introduction to Java</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Introduction to Java</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-1</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Introduction to Object-Oriented Programming</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-2</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Getting Started with Java</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="main_sub_div">
+                                <div class="sub_div">
+                                    <h1>Chapter-3</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Numerical Data</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-4</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Defining Your Own Class (Part-I)</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-5</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Selection Statements</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="main_sub_div">
+                                <div class="sub_div">
+                                    <h1>Chapter-6</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Relation Statements</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-7</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Defining Your Own Classes (Part-II)</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-8</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Exception Handling</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="main_sub_div">
+                                <div class="sub_div">
+                                    <h1>Chapter-9</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Character and String</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-10</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">Arrays and Collections</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+    
+                                <div class="sub_div">
+                                    <h1>Chapter-12</h1>
+                                    <hr>
+                                    <span style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p style="width: 300px;">File Input and Output</p>
+                                        <a href="#"><button>Download</button></a>   
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="sub_div">
+                                <h1>Chapter-13</h1>
+                                <hr>
+                                <span style="display: flex; justify-content: space-between; align-items: center;">
+                                    <p style="width: 300px;">GUI and Event-Driven Programming</p>
+                                    <a href="#"><button>Download</button></a>   
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="width: 100%;">
+
+                <section id="#calculus">
+                    <h1>Calculus</h1>
+                    <div class="main_div">
+                        <div class="sub_div">
+                            <h1>Calculus Text Book</h1>
+                            <hr>
+                            <span style="display: flex; justify-content: space-between; align-items: center;">
+                                <p>Traveller B2</p>
+                                <a href="#"><button>Download</button></a>
+                                
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+        </div>
     </div>
     
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
+    
 </body>
-</html>
+</html> 

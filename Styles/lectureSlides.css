@@ -1,21 +1,170 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    
-    align-items: normal;
-   
-    
-    
-    
-}
-.img-container{
-    display: block;
-    margin-bottom: auto;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    /* box-sizing: border-box; */
 }
 
-.button-container a {
-    margin: 20px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 10px;
+body{
+    margin: 0;
+    background: rgb(205, 205, 205);
 }
+
+button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 100%;
+    background: #482ace;
+    transition: all 0.4s;
+}
+
+body.open .sidebar{
+    width: 240px;
+}
+
+.sidebar-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    height: 68px;
+    padding: 0 1.25rem 0 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid transparent;
+    transition: all 0.4s;
+}
+
+.sidebar-header:hover{
+    border-left: 3px solid #bdbdbd;
+}
+
+.sidebar-burger{
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar-burger > i, body.open .sidebar-burger > i{
+    font-size: 25px;
+    color: #f9f9f9;
+    transition: all 0.4s;
+}
+
+.sidebar-burger:hover > i, body.open .sidebar-burger:hover > i{
+    color: #bdbdbd;
+}
+
+.sidebar-logo{
+    height: 30px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+body.open .sidebar-logo{
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.sidebar-menu{
+    display: grid;
+}
+
+.sidebar-menu > button{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 55px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 0 22px;
+    border-left: 3px solid transparent;
+    transition: all 0.4s;
+}
+
+.sidebar-menu > button:hover{
+    border-left: 3px solid #f9f9f9;
+}
+
+.sidebar-menu > button > i{
+    font-size: 25px;
+    color: #f9f9f9;
+    transition: all 0.4s;
+}
+
+.sidebar-menu > button:hover > i, .sidebar-menu > button:hover > span{
+    color: #bdbdbd;
+}
+
+.sidebar-menu > button > span{
+    color: #f9f9f9;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+body.open .sidebar-menu > button > span{
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.slide_hr {
+    width: 100%;
+}
+
+.sidebar_detail {
+    margin-left: 80px;
+    transition: 0.5s;
+}
+
+.sidebar_detail section {
+    margin-bottom: 30px;
+}
+
+.sidebar_detail section h2 {
+    font-size: 25px;
+}
+
+.open .sidebar_detail {
+    margin-left: 250px;
+    transition: 0.3s;
+}
+
+.sidebar_detail .main_div .sub_div {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 0px 20px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.sidebar_detail .main_sub_div {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.sidebar_detail  .main_div .sub_div button {
+    /* border: 1px solid #000000; */
+    padding: 10px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: rgb(232, 124, 85);
+}
+
+
