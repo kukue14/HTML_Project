@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="webpage.css">
+    <title>Subjects with LectureVideos</title>
+</head>
+<body>
+    
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <img src="" alt="" class="sidebar-logo">
+            </header>
+
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class='bx bx-home' ></i>
+                    <span>Home</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-video'></i>
+                    <span>LectureVideos</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(English)</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(CM-102)</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(CS-202)</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(CS-801)</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(IS-201)</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-graduation' ></i>
+                    <span>(ITSM-201)</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxs-cog' ></i>
+                    <span>Setting</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-lock' ></i>
+                    <span>Security</span>
+                </button>
+            </nav>
+
+
+        </div>
+    </nav>
+
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
+</body>
+</html>
