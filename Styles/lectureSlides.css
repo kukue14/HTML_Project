@@ -129,12 +129,12 @@ body.open .sidebar-menu > button > span{
 }
 
 .sidebar_detail {
-    margin-left: 80px;
+    margin-left: 100px;
     transition: 0.5s;
 }
 
 .sidebar_detail section {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sidebar_detail section h2 {
@@ -142,7 +142,7 @@ body.open .sidebar-menu > button > span{
 }
 
 .open .sidebar_detail {
-    margin-left: 250px;
+    margin-left: 280px;
     transition: 0.3s;
 }
 

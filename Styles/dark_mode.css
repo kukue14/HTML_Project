@@ -15,6 +15,10 @@
     float: right;
 }
 
+.dark-mode .navigation_bar h1 {
+    color: #ffffffff;
+}
+
 .dark-mode .navigation_bar ul li a{
     color: rgb(206, 198, 198);
 }
