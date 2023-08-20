@@ -2,6 +2,7 @@
 
 *{
     /* box-sizing: border-box; */
+    scroll-behavior: smooth;
 }
 
 body{
@@ -98,30 +99,43 @@ body.open .sidebar-logo{
     border-left: 3px solid transparent;
     transition: all 0.4s;
 }
-
-.sidebar-menu > button:hover{
+/* 
+.sidebar-menu > a > button:hover{
     border-left: 3px solid #f9f9f9;
+    background: rgb(205, 205, 205);
+} */
+
+.sidebar-menu a:hover {
+    background: rgb(205, 205, 205);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.sidebar-menu > button > i{
+.sidebar-menu > a > button > i{
     font-size: 25px;
     color: #f9f9f9;
     transition: all 0.4s;
+    margin: 25px;
 }
 
 .sidebar-menu > button:hover > i, .sidebar-menu > button:hover > span{
     color: #bdbdbd;
 }
 
-.sidebar-menu > button > span{
+.sidebar-menu > a > button > span{
     color: #f9f9f9;
     opacity: 0;
     transition: all 0.4s;
 }
 
-body.open .sidebar-menu > button > span{
+body.open .sidebar-menu > a > button > span{
     opacity: 1;
     transition: all 0.4s;
+    font-size: 20px;
+}
+
+.sidebar-menu a button span {
+    line-height: 55px;
 }
 
 .slide_hr {
@@ -137,12 +151,17 @@ body.open .sidebar-menu > button > span{
     margin-bottom: 50px;
 }
 
-.sidebar_detail section h2 {
+.sidebar_detail section h1 {
+    font-size: 35px;
+}
+
+
+.sidebar_detail section .sub_div h1 {
     font-size: 25px;
 }
 
 .open .sidebar_detail {
-    margin-left: 280px;
+    margin-left: 260px;
     transition: 0.3s;
 }
 
@@ -150,8 +169,14 @@ body.open .sidebar-menu > button > span{
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 0px 20px;
-    width: 350px;
+    width: 400px;
     margin-right: 20px;
+    transition: 0.5s;
+}
+
+.open .sidebar_detail .main_div .sub_div {
+    width: 350px;
+    transition: 0.5s;
 }
 
 .sidebar_detail .main_sub_div {
