@@ -109,6 +109,7 @@ body.open .sidebar-logo{
     background: rgb(205, 205, 205);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
 }
 
 .sidebar-menu > a > button > i{
@@ -119,7 +120,16 @@ body.open .sidebar-logo{
 }
 
 .sidebar-menu > button:hover > i, .sidebar-menu > button:hover > span{
-    color: #bdbdbd;
+    /* color: #bdbdbd; */
+    color: #000000;
+}
+
+.sidebar-menu button:hover span {
+    color: #000000;
+}
+
+.sidebar-menu button:hover i {
+    color: #000000;
 }
 
 .sidebar-menu > a > button > span{

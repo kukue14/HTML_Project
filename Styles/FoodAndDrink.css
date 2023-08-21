@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@400;900&display=swap');
 
-body {
+* {
+    transition: 1s;
+}
+
+.food_drink {
+    background-image: url("/images/Chef-cuate.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    /* border: 1px solid #000000; */
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px auto;
     background-color: rgb(224, 205, 180);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray, -5px 0px 5px gray;
 }
 
 .heading {

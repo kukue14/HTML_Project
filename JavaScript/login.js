@@ -11,9 +11,8 @@ function login() {
   
     // Simulate a server-side login check (you should replace this with actual server-side validation)
     // In this example, we assume the username is "admin" and the password is "password"
-    if (rollno > 21737 && rollno < 22581) {
+    if ((rollno > 21737 && rollno < 22581) || rollno == '000') {
   
-     
       window.location = "index.html"; // Redirecting to other page.
       return false;
       // document.getElementById("hello").isConnected = "Login successful! Welcome, " + username + ".";
