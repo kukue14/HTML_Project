@@ -5,28 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food & Drink</title>
     <link rel="stylesheet" href="./Styles/FoodAndDrink.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./JavaScript/FoodAndDrink.js"></script>
 </head>
 <body>
     <!-- <i class="fa-solid fa-cross icon"></i> -->
-    <div class="heading">
-        <h1><i id="heading">Food</i> & <span>Drink</span></h1>
-        <p><i>UCSY Canteen</i></p>
+    <div class="food_drink">
+        <a href="./index.html"  style="text-align: right; font-size: 40px; margin: 20px; color: #000000;"><i class="fa-solid fa-circle-xmark"></i></a>
+        <div class="heading">
+            <h1><i id="heading">Food</i> & <span>Drink</span></h1>
+            <p><i>UCSY Canteen</i></p>
+        </div>
+        <section class="canteen">
+            <section>
+                <h1>ခိုင်</h1>
+                <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
+            </section>
+            <section>
+                <h1>တာချီလိတ်</h1>
+                <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
+            </section>
+            <section>
+                <h1>ရှမ်းမလေး</h1>
+                <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
+            </section>
+        </section>
+        <p style="text-align: center; color: red; font-size: 30px;" id="demo"></p>
     </div>
-    <section class="canteen">
-        <section>
-            <h1>ခိုင်</h1>
-            <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
-        </section>
-        <section>
-            <h1>တာချီလိတ်</h1>
-            <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
-        </section>
-        <section>
-            <h1>ရှမ်းမလေး</h1>
-            <a href="#"><h2 onclick="myFunction()"><abbr title="Coming Soon!">Menu</abbr></h2></a>
-        </section>
-    </section>
-    <p style="text-align: center; color: red; font-size: 30px;" id="demo"></p>
 </body>
 </html>
