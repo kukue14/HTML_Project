@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var form = document.getElementById('sheetdb-form');
 form.addEventListener("submit", e => {
   e.preventDefault();
@@ -37,7 +37,7 @@ document.getElementById("loginStatus").innerHTML = "Login failed. Your're not in
 
   });
 });
-=======
+
 function login() {
     // Get input values
     var username = document.getElementById("username").value;
@@ -73,4 +73,4 @@ function login() {
       document.getElementById("loginStatus").innerHTML = "Login failed. Your're not in Semester-3.";
     }
   }
->>>>>>> 2f79fd4e700278fef616dc1cdeb489dc70b65bf5
+
