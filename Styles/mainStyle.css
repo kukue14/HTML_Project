@@ -110,5 +110,72 @@ body hr {
     color: #000000  ;
 }
 
+#home .white_space {
+    height: 110px;
+}
+
+#aboutus .white_space {
+    height: 80px;
+}
 
 
+
+@media screen and (max-width: 450px) {
+    
+    #home {
+        display: block;
+        margin: auto;
+    }
+    #home .white_space {
+        height: 60px;
+    }
+
+    .workspace {
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .workspace .detail h2 {
+        font-size: 10px;
+        width: 60px;
+    }
+
+    .workspace .detail h1 {
+        font-size: 30px;
+    }
+
+    .workspace .detail p {
+        display: none;
+    }
+
+    .workspace .image {
+        width: 200px;
+    }
+
+    .workspace img {
+        margin-top: 0px;
+    }
+
+    .aboutus {
+        display: block;
+    }
+
+    .aboutus img {
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    #aboutus .white_space {
+        display: none;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-align: justify;
+    }
+}

@@ -77,3 +77,23 @@
 .navigation_bar ul li:hover ul.dropdown {
     display: block;
 }
+
+@media screen and (max-width: 450px) {
+    .navigation_bar section {
+        padding-top: 10px;
+    }
+
+    .navigation_bar section img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navigation_bar section h1 {
+        font-size: 15px;
+    }
+
+    .navigation_bar nav {
+        display: none;
+    }
+
+}
