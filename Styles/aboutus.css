@@ -33,3 +33,30 @@ header{
 .aboutus img {
     width: 600px;
 }
+
+@media screen and (max-width: 450px) {
+    .aboutus {
+        display: block;
+    }
+
+    .aboutus img {
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    #aboutus .white_space {
+        display: none;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        margin: 10px auto;
+        background-color: #00000015;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-align: justify;
+    }
+}

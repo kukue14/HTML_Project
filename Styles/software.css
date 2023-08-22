@@ -84,6 +84,8 @@
     border-radius: 20px;
     background-color: #d2cece;
     color: rgb(78, 78, 244);
+    transition: 0.2s;
+
 }
 
 .software a {
@@ -93,4 +95,57 @@
 .software hr {
     width: 500px;
     margin-left: 100px;
+}
+
+.software h1:hover {
+    background-color: rgb(93, 87, 87);
+    color: #d2cece;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 450px) {
+    .software {
+        width: 300px;
+        height: 200px;
+    }
+
+    .software_title {
+        border-radius: 20px;
+    }
+
+    .software_title h1{
+        font-size: 50px;
+    }
+
+    .software_main {
+        display: block;
+    }
+
+    .software_main .main_section {
+        width: 100%;
+    }
+
+    .software_main .main_section hr {
+        width: 300px;
+    }
+
+    .software section {
+       margin: 10px;
+    }
+
+    .software section span img {
+        width: 30px;
+    }
+
+    .software section span span {
+        font-size: 12px;
+    }
+
+    .software section span a {
+        font-size: 10px;
+    }
+
+    .software .download_key {
+        padding: 2px 20px;
+    }
 }
