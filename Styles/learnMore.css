@@ -13,13 +13,21 @@
     scroll-behavior: smooth;
     /* transition: 0.2s; */
     display: block;
-    margin: auto;
-    width: 800px;
-    
+    margin: 20px auto;
+    width: 95%;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px grey, -5px 0px 5px grey;
-    
-    
+    box-shadow: 5px 5px 5px grey, -5px 0px 5px grey;  
+}
+
+.list-container .sub_container {
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 450px) {
+    .list-container {
+        font-size: 10px;
+    }
 }
 
 
