@@ -17,7 +17,22 @@
                 <h1>Informational<br>Assistance</h1>
             </section>
         </a>
-        <nav >
+
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house icon"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-info icon"></i>About us</a></li>
+                    <li><a href="#"><i class="fa-solid fa-folder icon"></i>Content<i class="fa-solid fa-angle-down icon dropdown"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-utensils icon"></i>Food & Drink</a></li>
+                    <li><a href="#"><i class="fa-solid fa-newspaper icon"></i>Activity</a></li>
+                </ul>
+            </nav>
+            <div class="toggle"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        
+        
+        <nav class="nav1">
             <ul>
                 <li><a href="#home">Home<i class="fa-solid fa-house icon"></i></a></li>
                 <li><a href="#aboutus">About us<i class="fa-solid fa-circle-info icon"></i></a></li>
@@ -37,7 +52,8 @@
         <!-- <li><button onclick="myFunction()">mode</button></li> -->
                 <!-- <div id="drak-light"  onclick="myFunction()"  > -->
                     <!-- <img id="dark-light" onclick="changeImage()" src="./images/turnOff.png" class="darkmode_btn"> -->
-                    <a href="./Llogin.html"><h1 style="font-size: 18px; margin-right: 30px;">Log Out</h1></a>
+                    <a href="./Llogin.html" class="logout"><h1 style="font-size: 18px; margin-right: 30px;">Log Out</h1></a>
+                   <div class="mode_div">
                     <section style="display: flex; align-items: center;" class="mode_div">
                         
                         <!-- <button onclick="myFunction(), changeImage()" class="dark-mode-key" id="dark-light"> -->
@@ -46,29 +62,34 @@
                        
                        
                     </section>
+                   </div>
+                   <script type="text/javascript">
+                    const toggleSidebar = () => document.body.classList.toggle("click");
+                </script>
     </div>
+
 
     <!-- Home Page -->
     <section id="home">
-        <section style="height: 110px;"></section>
+        <section class="white_space"></section>
         <!-- <img src=""> -->
         <div class="workspace">
             <section class="detail">
                 <h1>We're ready<br>to help you.</h1>
-                <p>The mission of website is to provide a comprehensive online platform that empowers students(Sem3) with the resources they need to excel in their studies. We aim to create a centralized hub where students can access lecture materials, videos, and software tools,and supportive learning environment.</p>
+                <p class="p1">The mission of website is to provide a comprehensive online platform that empowers students(Sem3) with the resources they need to excel in their studies. We aim to create a centralized hub where students can access lecture materials, videos, and software tools,and supportive learning environment.</p>
                 <a href="./learnMore.html"><h2>Learn more</h2></a>
+
             </section>
             <section class="image">
                 <img src="./images/Active Support-amico.svg" alt="helping_svg">
             </section>
         </div>
+        <p class="p2">The mission of website is to provide a comprehensive online platform that empowers students(Sem3) with the resources they need to excel in their studies. We aim to create a centralized hub where students can access lecture materials, videos, and software tools,and supportive learning environment.</p>
     </section>
-    <br><br><br><br>
     <hr>
-    <br><br><br><br>
     <!-- About Page -->
     <section id="aboutus">
-        <section style="height: 80px;"></section>
+        <section class="white_space"></section>
         <div class="aboutus">
             <section>
                 <img src="./images/About us page-pana.svg" alt="About Us image">
@@ -94,8 +115,6 @@
             </section>
         </div>
     </section>
-    <br><br><br><br>
-    <br><br><br><br>
     <hr>
     <!-- Softwares Download -->
     <section id="software">
@@ -304,17 +323,17 @@
             </section>
         </div>
     </section>
-    <br><br><br><br>
-    <br><br><br><br>
     <!-- Three Contents -->
     <div class="three_contents_container" id="content">
-        <section style="height: 80px;"></section>
+        <section class="white_space"></section>
         <section class="three_contents">
             <a href="./LectureSlides.html">
                 <div>
                     <img src="./images/slides.png" alt="Lecture slides" class="image">
                     <h1>Lecture Slides</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, debitis?</p>
+                    <p>A concise presentation summarizing key points from each lecture
+                        for sem-3.
+                    </p>
                 </div>
             </a>
             
@@ -322,7 +341,9 @@
                 <div>
                     <img src="./images/online-course.png" alt="Lecture Videos" class="image">
                     <h1>Lecture Videos</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, debitis?</p>
+                    <p>Engaging video recordings capturing educational lectures to enhance learning
+                        through visual and auditory experiences.
+                    </p>
                 </div>
             </a>
             
@@ -330,14 +351,13 @@
                 <div>
                     <img src="./images/schedule.png" alt="Schedule" class="image">
                     <h1>Time Table</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, debitis?</p>
+                    <p>A schedule outlining the dates,times,providing students with a structured plan for attending
+                        and preparing for their educational sessions.
+                    </p>
                 </div>
             </a>
         </section>
     </div>
-    <br><br><br><br>
-    <br><br><br><br>
-
     <section class="news">
         <section>
             <img src="" alt="">
@@ -353,19 +373,18 @@
                 <div>
                     <img src="./images/ucsylogo.png" alt="" id="cp_ucsyLogo">
                     <br>
-                    <label for="cp_ucsyLogo">University of Computer Studies, Yangon</label>
+                    <h1 for="cp_ucsyLogo">University of Computer Studies, Yangon</h1>
                 </div>
             </a>
             <a href="#aboutus">
                 <div>
                     <img src="./images/InfoAssistance.png" alt="" id="cp_iaLogo">
                     <br>
-                    <label for="cp_iaLogo">Informational Assistance Group</label>
+                    <h1 for="cp_iaLogo">Informational Assistance Group</h1>
                 </div>
             </a>
         </section>
     </div>
-    
     
 </body>
 </html>
