@@ -30,8 +30,9 @@
 }
 
 .navigation_bar .darkmode_btn {
-    width: 30px;
-    margin: 10px;    
+    width: 90px;
+    height: 40px;
+      
 }
 
 .navigation_bar ul {

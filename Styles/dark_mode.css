@@ -1,10 +1,11 @@
 
 .dark-mode{
-    background-color: rgb(57, 53, 53);
+    background-color: rgb(53, 54, 57);
     color: white;
     transition: 0.5s;
     
 }
+
 
 .dark-mode .navigation_bar{
     background-color: rgb(57, 53, 53);
@@ -54,7 +55,7 @@
     /* transition: 2s; */
 }
 
-/* img {
+/* .dark-mode img {
     width: 50px;
 } */
 
