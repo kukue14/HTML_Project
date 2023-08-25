@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -136,6 +137,17 @@ p{
 @media screen and (max-width:450px) {
   .container{
     margin: 30px auto;
+=======
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+>>>>>>> 85f3a163e692a4e9e17c5189475c9038db8f7007
   }
 
   .exit_icon {
