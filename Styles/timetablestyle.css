@@ -144,3 +144,7 @@ p{
     text-align: right;
   }
 }
+.link-container{
+  text-decoration: none;
+  color: white;
+}
