@@ -4,35 +4,127 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(11, 75, 99, 0.3);
+    background-color: rgba(137, 155, 153, 0.442);
 }
 
+
+
+.main_container {
+	display: block;
+	width: 80%;
+	height: 800px;
+	border: 1px solid #000000;
+	margin: 50px auto;
+	border-style: none;
+}
+
+.main_container .sub_main_container {
+	/* width: 100%; */
+	display: flex;
+	border-style: none;
+
+}
 
 .container{
-    width: 60vmin;
-	
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+	width: 900px;
+	height: 420px;
+	display: inline-block;
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+	/* margin: 68px; */
+    /* top: 50%; */
+    /* left: 50%; */
+	border-radius: 10px;
     overflow: hidden;
     border: 3px solid rgba(134, 142, 175, 0.59);
-    border-radius: 8px;
     box-shadow: 10px slateblue;
+	margin-right: 30px;
 }
 .wrapper{
-
-    width: 100%;
-
-	
+    /* width: 500px; */
+    /* width: 100%; */
     display: flex;
-    animation: slide 7s infinite;
+    animation: slide 10s infinite;
 
 }
 
-img{
-    width: 100%;
-	opacity: 2;
+
+/* #image{
+	height: auto;
+	width: auto;
+} */
+
+.sub_container {
+	border-radius: 10px;
+	margin-left: 5px;
+	width: 580px;
+	height: 420px;
+	border: 3px solid #000000;
+}
+
+.sub_container1 {
+	border: 3px solid #000000;
+	width: 480px;
+	height: 400px;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+
+.sub_container2 {
+	border: 3px solid #000000;
+	width: 1000px;
+	height: 400px;
+	border-radius: 10px;
+	/* border-style: none; */
+	margin-left: 30px;
+
+}
+#image1{
+	
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	height: 420px;
+	
+}
+#image2{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	/* margin-bottom: 80px; */
+	
+	
+}
+
+#image3{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	height: 490px;
+	
+	/* height: 420px; */
+}
+#image4{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	margin-top: -150px;
+	/* height: 420px; */
+}
+
+#image5{
+	width: 475px;
+	height: 395px;
+	border-radius: 10px;
+}
+#image6{
+	width: 995px;
+	height: 395px;
+	border-radius: 10px;
 
 }
 @keyframes slide{
@@ -64,3 +156,4 @@ img{
         width: 100%;
     
     }
+

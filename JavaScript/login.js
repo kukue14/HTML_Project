@@ -28,7 +28,7 @@ return;
 if (rollno > 21737 && rollno < 22581) {
 
 
-window.location= "index.html"; // Redirecting to other page.
+window.location= "main.html"; // Redirecting to other page.
 return false;
 
 } else {

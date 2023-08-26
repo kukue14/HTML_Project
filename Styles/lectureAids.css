@@ -202,4 +202,96 @@ body.open .sidebar-menu > a > button > span{
     background-color: rgb(232, 124, 85);
 }
 
+@media screen and (max-width:450px) {
+    .sidebar{
+        width: 50px;
+        height: 600px;
+        position: fixed;
+    }
 
+    body.open .sidebar{
+        width: 180px;
+        position: fixed;
+    }
+    
+    .sidebar_container .fix_div {
+        position: fixed;
+    }
+
+    .sidebar_container .fix_div .sidebar .sidebar-inner .sidebar-menu {
+        position: fixed;
+    }
+
+    .sidebar-inner{
+        width: 300px;
+    }
+    
+    .sidebar-header{
+        height: 50px;
+    }
+    
+    .sidebar-burger{
+        width: 50px;
+        height: 50px;
+
+    }
+    
+    .sidebar-burger > i, body.open .sidebar-burger > i{
+        font-size: 20px;
+    }
+    
+    .sidebar-logo{
+        height: 20px;
+
+    }
+
+    .sidebar-menu > a > button > i{
+        font-size: 18px;
+        margin: 18px;
+
+    }
+    
+    body.open .sidebar-menu > a > button > span{
+        opacity: 1;
+        transition: all 0.4s;
+        font-size: 15px;
+    }
+    
+    .sidebar-menu a button span {
+        line-height: 55px;
+    }
+    
+    .slide_hr {
+        width: 100%;
+    }
+    
+    .sidebar_detail {
+        margin-left: 80px;
+    }
+    
+    .sidebar_detail section {
+        margin-bottom: 30px;
+    }
+    
+    .sidebar_detail section h1 {
+        font-size: 20px;
+    }
+    
+    
+    .sidebar_detail section .sub_div h1 {
+        font-size: 15px;
+    }
+    
+    .open .sidebar_detail {
+        margin-left: 200px;
+    }
+    
+    .sidebar_detail .main_div .sub_div {
+        width: 250px;
+    }
+    
+    .open .sidebar_detail .main_div .sub_div {
+        width: 250px;
+    }
+    
+}
