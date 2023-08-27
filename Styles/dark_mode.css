@@ -8,7 +8,7 @@
 
 
 .dark-mode .navigation_bar{
-    background-color: rgb(57, 53, 53);
+    background-color: rgb(53, 54, 57);
     /* color: white; */
     transition: 0.5s;
 }
@@ -26,7 +26,7 @@
 }
 
 .dark-mode .navigation_bar ul li a{
-    color: rgb(206, 198, 198);
+    color: rgb(255, 255, 255);
 }
 
 .dark-mode .navigation_bar ul li ul.dropdown li {
@@ -36,6 +36,9 @@
 .mode_div h1 {
     font-size: 15px;
     margin: 10px;
+}
+.navigation_bar ul li a:hover {
+    color: #fd8c14;
 }
 
 .dark-mode-key {
@@ -62,4 +65,7 @@
 .dark-mode {
     float: right;
     /* background-color: green; */
+}
+.three_contents a {
+    color: white;
 }

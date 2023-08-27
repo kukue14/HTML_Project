@@ -41,10 +41,11 @@ body{
 	margin-right: 30px;
 }
 .wrapper{
-    /* width: 500px; */
-    /* width: 100%; */
+    position: relative;
     display: flex;
     animation: slide 10s infinite;
+	width: auto;
+	height: auto;
 
 }
 
@@ -79,7 +80,7 @@ body{
 	margin-left: 30px;
 
 }
-#image1{
+/* #image1{
 	
 	float: left;
 	margin: 0px;
@@ -96,9 +97,9 @@ body{
 	/* margin-bottom: 80px; */
 	
 	
-}
 
-#image3{
+
+/* #image3{
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -106,15 +107,15 @@ body{
 	height: 490px;
 	
 	/* height: 420px; */
-}
-#image4{
+} */
+/* #image4{
 	float: left;
 	margin: 0px;
 	padding: 0px;
 	position: relative;
 	margin-top: -150px;
 	/* height: 420px; */
-}
+} */ */
 
 #image5{
 	width: 475px;

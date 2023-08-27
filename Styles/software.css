@@ -82,8 +82,8 @@
 .software section .download_key {
     padding: 3px 30px;
     border-radius: 20px;
-    background-color: #d2cece;
-    color: rgb(78, 78, 244);
+    background-color: #fd8c14;
+    color: rgb(0, 0, 0);
     transition: 0.2s;
 
 }
@@ -98,8 +98,8 @@
 }
 
 .software h1:hover {
-    background-color: rgb(93, 87, 87);
-    color: #d2cece;
+    background-color: #ffce99;
+    color: #000000;
     transition: 0.5s;
 }
 

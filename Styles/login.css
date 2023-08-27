@@ -5,11 +5,11 @@
   }
 
   body {
-  background: linear-gradient(-35deg, #c33987, #bf0ad7, #23a0d5, #2537d9, #23a0d5);
+  background: linear-gradient(-35deg, #f4b738, #38defb, #f4b738);
   background-size: 350% 350%;
   font-family: sans-serif;
   display: inline-block;
-  animation: gradient 10s ease infinite;
+  animation: gradient 9s ease infinite;
   height: 100vh;
 
 }

@@ -7,7 +7,7 @@
 
 body{
     margin: 0;
-    background: rgb(205, 205, 205);
+    background: rgb(255, 255, 255);
 }
 
 button{
@@ -24,7 +24,7 @@ button{
     left: 0;
     width: 75px;
     height: 100%;
-    background: #482ace;
+    background: #fd8c14;
     transition: all 0.4s;
 }
 
@@ -177,6 +177,7 @@ body.open .sidebar-menu > a > button > span{
 
 .sidebar_detail .main_div .sub_div {
     border: 1px solid #000000;
+    background-color: #bdbdbd29;
     border-radius: 10px;
     padding: 0px 20px;
     width: 400px;
@@ -199,7 +200,7 @@ body.open .sidebar-menu > a > button > span{
     padding: 10px;
     height: 35px;
     border-radius: 40px;
-    background-color: rgb(232, 124, 85);
+    background-color: #fd8c14;
 }
 
 @media screen and (max-width:450px) {
