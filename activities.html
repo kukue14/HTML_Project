@@ -1,44 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Styles/activity.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="Styles/Activitiesstyle.css">
+
+   <!-- custom js file link  -->
+   <script src="JavaScript/Activitiesscript.js" defer></script>
+
 </head>
-
 <body>
-    <div class="main_container">
-        <div class="sub_main_container">
-            <div class="container">
-                <div class="wrapper">
-                    <img  src="images/IMG_6948.JPEG">
-                    <img src="images/Thingyan2.jpg">
-                    <img src="images/FootballTeam (1).jpg">
-                    <img src="images/Fw2.jpg">
-                </div>
-            </div>
-            <div class="sub_container">
-            </div>
-        </div>
+   
+<div class="container">
 
-        <br>
+   <h3 class="title"> Memories </h3>
 
-        <div class="sub_main_container">
-            <div class="sub_container1">
-                <img id="image5" src="./images/Thingyan.jpg" alt="">
-            </div>
+   <div class="products-container">
 
-            <div class="sub_container2">
-                <img id="image6" src="./images/F-002, GroupPhoto.jpeg" alt=""  >
-            </div>
+      <div class="product" data-name="p-1">
+         <img src="Activitiesimages/Fw2.jpg" alt="">
+         <h3>Fresher Welcome</h3>
+         <div class="blankdiv"></div>
+      </div>
 
-        
-        </div>
-    </div>
+      <div class="product" data-name="p-2">
+         <img src="Activitiesimages/Football.jpg" alt="">
+         <h3>Football Team</h3>
+         <div class="blankdiv"></div>
+      </div>
 
+      <div class="product" data-name="p-3">
+         <img src="Activitiesimages/KhanMa.jpg" alt="">
+         <h3>Sports</h3>
+         <div class="blankdiv"></div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="Activitiesimages/F-002(2).jpg" alt="">
+         <h3>The Class of the Developers</h3>
+         <div class="blankdiv"></div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="Activitiesimages/HtetMaNel.jpg" alt="">
+         <h3>The Traditional</h3>
+         <div class="blankdiv"></div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="Activitiesimages/thagyan.jpg" alt="">
+         <h3>MyanmarThingyan</h3>
+         <div class="blankdiv"></div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/FW.jpg" alt="">
+      <h3>FresherWelcome Memory</h3>
+    
+      <p></p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/FW.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#" class="secondbutton">More</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/Football2.jpg" alt="">
+      <h3>Champions</h3>
+     
+      <p>They win the Champion Title of the Save it</p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/Football2.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#" class="secondbutton">More</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/Sport.jpg" alt="">
+      <h3>SportsCompetition</h3>
+      
+      <p>The unforgettable Memory of the competition!</p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/Sport.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#" class="secondbutton">More</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/F-002.jpg" alt="">
+      <h3>The Class of the developers</h3>
+     
+      <p>This is Our Class!</p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/F-002.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#" class="secondbutton">More</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/HtetMaNel2.jpg" alt="">
+      <h3>The Traditional</h3>
+      
+         
+      <p>Making The Traditional Food of Myanmar</p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/HtetMaNel2.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#" class="secondbutton">More</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="Activitiesimages/Thingyan2.jpg" alt="">
+      <h3>Myanmar-Traditional Festival</h3>
+     
+      <p>The Festive Spirit Of the Students</p>
+      <div class="blankdiv"></div>
+      <div class="buttons">
+         <a href="Activitiesimages/Thingyan2.jpg" class="firstbutton" download="">Save it</a>
+         <a href="#"class="secondbutton">More</a>
+      </div>
+   </div>
+
+</div>
 
 </body>
-
 </html>
